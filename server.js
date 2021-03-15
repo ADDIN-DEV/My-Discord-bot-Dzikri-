@@ -27,14 +27,13 @@ if (msg.content === 'a!slmt malam') {
     msg.reply('iya, Malam! 🌙');
   }
   
-if (msg.content === 'a!help') {
-    msg.channel.send(' ``a!slmt pagi`` |  ``a!slmt siang``  |  ``a!slmt malam`` |  ``a!p``   |  ``a!av`` ');
-  }  
+
   
    const embed = new Discord.MessageEmbed()
    .setColor('#fdd900')
-   .setTitle(' ``a!slmt pagi`` |  ``a!slmt siang``  |  ``a!slmt malam`` ')
-   .setDescription('=== All commands from Dzikri ===')
+   .setTitle(' ``a!slmt pagi``    |    ``a!slmt siang``    |    ``a!slmt malam``    |   ``a!p``   |   ``a!av`` ')
+   .setDescription('                      === All commands from Dzikri ===')
+   .setFooter('                           --------Bot Commands--------')
    return msg.channel.send(embed);
 });
 
