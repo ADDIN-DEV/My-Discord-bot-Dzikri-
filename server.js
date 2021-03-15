@@ -16,13 +16,20 @@ client.on('message', msg => {
   }
 
 
-  if (msg.content === 'a!slmt-pagi') {
-    msg.reply('iya, pagi!');
+  if (msg.content === 'a!slmt pagi') {
+    msg.reply('iya, pagi! 🌫️');
   }
-  if (msg.content === 'a!slmt-siang') {
-    msg.reply('iya, siang!');
+  if (msg.content === 'a!slmt siang') {
+    msg.reply('iya, siang! ☀️');
   }
 
+if (msg.content === 'a!slmt malam') {
+    msg.reply('iya, Malam! 🌙');
+  }
+  
+if (msg.content === 'a!help') {
+    msg.reply('**this is ');
+  }  
   
 });
 
