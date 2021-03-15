@@ -28,7 +28,7 @@ if (msg.content === 'a!slmt malam') {
   }
   
 if (msg.content === 'a!help') {
-    msg.reply('**this is ');
+    msg.channel.send(' ``a!slmt pagi`` |  ``a!slmt siang``  |  ``a!slmt malam`` |  ``a!p``   |  ``a!av`` ');
   }  
   
 });
