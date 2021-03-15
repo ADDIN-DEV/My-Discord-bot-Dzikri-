@@ -15,6 +15,15 @@ client.on('message', msg => {
     msg.reply(msg.author.displayAvatarURL());
   }
 
+
+  if (msg.content === 'a!slmt-pagi') {
+    msg.reply('iya, pagi!');
+  }
+  if (msg.content === 'a!slmt-siang') {
+    msg.reply('iya, siang!');
+  }
+
+  
 });
 
 client.login('ODE0MDAwMzQ2ODg4MjczOTMw.YDXe5g.6g_jPCQh--PGlAJPJQszd8mKrfw');
