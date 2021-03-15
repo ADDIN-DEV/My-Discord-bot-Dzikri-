@@ -29,12 +29,19 @@ if (msg.content === 'a!slmt malam') {
   
 
   
-   const embed = new Discord.MessageEmbed()
+if (msg.content === 'a!help') {
+  const embed = new MessageEmbed()
+  
+  .setTitle(' ``a!slmt pagi``    |    ``a!slmt siang``    |    ``a!slmt malam``    |   ``a!p``   |   ``a!av`` ')
+  
    .setColor('#fdd900')
-   .setTitle(' ``a!slmt pagi``    |    ``a!slmt siang``    |    ``a!slmt malam``    |   ``a!p``   |   ``a!av`` ')
-   .setDescription('                      === All commands from Dzikri ===')
-   .setFooter('                           --------Bot Commands--------')
-   return msg.channel.send(embed);
+  
+   .setDescription('=== All commands from Dzikri ===');
+  
+   .setFooter('----Bot Commands----')
+  
+   msg.channel.send(embed);
+}
 });
 
 client.login('ODE0MDAwMzQ2ODg4MjczOTMw.YDXe5g.6g_jPCQh--PGlAJPJQszd8mKrfw');
