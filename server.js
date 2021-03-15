@@ -32,7 +32,10 @@ if (msg.content === 'a!help') {
   }  
   
    const embed = new Discord.MessageEmbed()
-   .setColor('')
+   .setColor('#fdd900')
+   .setTitle(' ``a!slmt pagi`` |  ``a!slmt siang``  |  ``a!slmt malam`` ')
+   .setDescription('=== All commands from Dzikri ===')
+   return msg.channel.send(embed);
 });
 
 client.login('ODE0MDAwMzQ2ODg4MjczOTMw.YDXe5g.6g_jPCQh--PGlAJPJQszd8mKrfw');
